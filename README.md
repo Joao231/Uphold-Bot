@@ -2,7 +2,7 @@
 
 Uphold Bot is a Node.js application that monitors currency rates and generates alerts for price oscillations.
 
-## Prerequisites
+## Pre-requisites
 
 Before running the bot, ensure you have the following installed on your system:
 
