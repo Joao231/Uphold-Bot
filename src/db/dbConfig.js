@@ -6,19 +6,19 @@ let poolConfig;
 if (process.env.RUNNING_IN_DOCKER === 'true') {
     // Use Docker-specific host configuration
     poolConfig = {
-        user: 'postgres',
-        host: 'host.docker.internal', // Use the Docker container name as the host
-        database: 'Alerts',
-        password: 'F1-driver!1999',
+        user: '',
+        host: '', // Use the Docker container name as the host
+        database: '',
+        password: '',
         port: 5432,
     };
 } else {
     // Use local host configuration
     poolConfig = {
-        user: 'postgres',
-        host: 'localhost',
-        database: 'Alerts',
-        password: 'F1-driver!1999',
+        user: '',
+        host: '',
+        database: '',
+        password: '',
         port: 5432,
     };
 }

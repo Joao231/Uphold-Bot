@@ -17,7 +17,7 @@ Before running the bot, ensure you have the following installed on your system:
 
    ```bash
    git clone <repository-url>
-   cd uphold-bot
+   cd Uphold
 2. **Install dependencies:**
 
    ```bash
@@ -26,6 +26,9 @@ Before running the bot, ensure you have the following installed on your system:
    
    - Install PostgreSQL and create a database.
    - Update the database connection configuration in src/db/dbConfig.js with your PostgreSQL credentials.
+   - Run the dbSetup script to create a table alerts to store alert information.
+   ```bash
+   node dbSetup.js
 4. **Build the Docker image (if using Docker):**
 
    ```bash
