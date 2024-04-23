@@ -1,4 +1,4 @@
-# Crypto Bot
+# Uphold Bot
 
 Crypto Bot is a Node.js application that monitors cryptocurrency prices and generates alerts for price oscillations.
 
